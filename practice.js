@@ -31,15 +31,6 @@ let favoriteThings = {
   holiday: 'Christmas'
 }
 
-console.log(favoriteThings.band)
-console.log(favoriteThings.food)
-console.log(favoriteThings.person)
-console.log(favoriteThings.book)
-console.log(favoriteThings.movie)
-console.log(favoriteThings.holiday)
-
-
-
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
@@ -76,15 +67,18 @@ that is named color, with the value being the color of your backpack.
   //Code here
 
 
-let backpack = {}
+let backPack = {}
 
+let item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'blue';
 
 
 //After you do the above, alert your entire backPack object.
 
   //Code here
 
- 
+ window.alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -94,7 +88,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
   //Code here
 
-
+console.log(backPack);
 
 
 
