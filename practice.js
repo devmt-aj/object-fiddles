@@ -1,4 +1,7 @@
 //Once you complete a problem, open SpecRunner.html in Chrome and check to for failures.
+//Note: The default display will only show failed specs (tests), click "Spec List" to see all the conditions checked.
+//       * Passed specs will be in black, failed will be in red.
+//       * Refresh the page to rerun all specs, or click a spec to run it and its children (if any)
 
 
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
@@ -88,13 +91,10 @@ Instead, console.log your whole backPack object and then check out the console.
 
   //Code here
 
-console.log(backPack);
-
+console.log(backPack)
 
 
 //NEXT PROBLEM
-
-
 
 
 var user2 = {
@@ -104,13 +104,14 @@ var user2 = {
         email: 'ty33@gmail.com',
         birthday: '05/02/1990',
         username: 'tylermcginnis33'
-};
+}
 //Let's say I, the user, decided to change my name and email address to the following
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
 
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
