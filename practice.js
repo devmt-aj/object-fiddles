@@ -1,4 +1,4 @@
-//Once you complete a problem, open up Chrome and check the answer in the console.
+//Once you complete a problem, open SpecRunner.html in Chrome and check to for failures.
 
 
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
@@ -8,7 +8,7 @@ let me = {
   name: 'AJ',
   age: 29
 }
-window.alert(me.name);
+window.alert(me.name)
 
 
 
@@ -22,9 +22,21 @@ window.alert(me.name);
 
   //Code here
 
+let favoriteThings = {
+  band: 'Imagine Dragons',
+  food: 'Cinnamon Rolls',
+  person: 'Stephanie',
+  book: 'Stormlight Archives',
+  movie: 'The Hunt for Red October',
+  holiday: 'Christmas'
+}
 
-
-
+console.log(favoriteThings.band)
+console.log(favoriteThings.food)
+console.log(favoriteThings.person)
+console.log(favoriteThings.book)
+console.log(favoriteThings.movie)
+console.log(favoriteThings.holiday)
 
 
 
@@ -32,7 +44,9 @@ window.alert(me.name);
 
   //Code here
 
+favoriteThings.car = 'Spyder'
 
+favoriteThings.brand = 'Apple'
 
 
 
@@ -40,8 +54,9 @@ window.alert(me.name);
 
   //Code here
 
+favoriteThings.food = 'Chicken Nuggets'
 
-
+favoriteThings.book = 'Harry Potter'
 
 
 //NEXT PROBLEM
@@ -61,7 +76,7 @@ that is named color, with the value being the color of your backpack.
   //Code here
 
 
-
+let backpack = {}
 
 
 
